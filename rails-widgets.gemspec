@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = "UI Widgets for RubyOnRails"
   s.description = "UI Widgets for RubyOnRails"
 
-  s.files         = Dir['lib/**/*.rb'] + Dir['generators/**/*.rb'] + Dir['images/**/*.rb'] + Dir['javascripts/**/*.rb'] + ['README', 'LICENSE']
+  s.files         = Dir['lib/**/*.rb'] + Dir['generators/**/*.rb'] + Dir['images/**/*.rb'] + Dir['javascripts/**/*.rb'] + ['README', 'LICENSE', 'init.rb']
   s.test_files    = Dir['test/**/*.rb']
   s.require_paths = ['lib']
 end
