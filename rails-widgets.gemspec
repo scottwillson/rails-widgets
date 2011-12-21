@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'init'
+require 'rails-widgets/widgets'
 
 Gem::Specification.new do |s|
   s.name        = 'rails-widgets'
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = "UI Widgets for RubyOnRails"
   s.description = "UI Widgets for RubyOnRails"
 
-  s.files         = Dir['lib/**/*.rb'] + Dir['generators/**/*.rb'] + Dir['images/**/*.rb'] + Dir['javascripts/**/*.rb'] + ['README', 'LICENSE', 'init.rb']
+  s.files         = Dir['lib/**/*.rb'] + Dir['generators/**/*.rb'] + Dir['images/**/*.rb'] + Dir['javascripts/**/*.rb'] + ['README', 'LICENSE']
   s.test_files    = Dir['test/**/*.rb']
   s.require_paths = ['lib']
 end
